@@ -5,7 +5,7 @@ pod = {}
 router_type = int(raw_input("1.Cisco L3\n2.Brocade L3?\n3.Cisco L2\n4.Brocade L2\n"))
 link_type = raw_input("pri or sec?\n")
 	
-#adding a random comment typicall usless	
+
 if router_type == 1:
     for line in file:
         branch = line.split()
